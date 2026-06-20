@@ -1,0 +1,42 @@
+# ─── Entornos virtuales Python ───────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ─── Dependencias Node.js ────────────────────────────────────
+node_modules/
+
+# ─── Sesión WhatsApp (credenciales de cuenta vinculada) ──────
+auth_info/
+auth_info_baileys/
+*.json.bak
+
+# ─── Variables de entorno (contienen contraseñas y claves) ───
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ─── Base de datos (nunca subir datos reales) ────────────────
+*.sql
+!estructura_base_datos.sql
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Editores e IDEs ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
